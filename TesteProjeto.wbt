@@ -1,0 +1,136 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.3403813000333911 0.38244449075106424 0.8589975448636263 1.6062693519591258
+  position 0.09733415626607941 -1.980843564561482 1.8552704555999957
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorTileSize 0.125 0.125
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+DEF e-puck E-puck {
+  hidden position_0_0 242.51026724556195
+  hidden position_0_1 214.40907195786733
+  hidden rotation_1 0 1 0 3.749225572737662
+  hidden rotation_2 0 1 0 0.7807715137613859
+  translation -0.011248209834439579 0.013823788486377027 -6.396288904304999e-05
+  rotation 1.2551636783314943e-05 5.810940671860669e-05 -0.9999999982328768 0.42546695497439097
+  controller "Projeto"
+  supervisor TRUE
+}
+DEF CAIXA2 WoodenBox {
+  translation 0.35 0 0.05
+  size 0.1 0.1 0.1
+}
+DEF CAIXA3 WoodenBox {
+  translation 0.15 0 0.05
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA4 WoodenBox {
+  translation -0.15 0 0.05
+  name "wooden box(3)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA10 WoodenBox {
+  translation -0.15 0.35 0.05
+  name "wooden box(9)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA17 WoodenBox {
+  translation -0.15 -0.35 0.05
+  name "wooden box(16)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA11 WoodenBox {
+  translation 0.003845169378638853 0.3367221801349719 0.049976456
+  name "wooden box(10)"
+  size 0.05 0.1 0.1
+  mass 0.06
+}
+DEF CAIXA18 WoodenBox {
+  translation 0 -0.35 0.05
+  name "wooden box(17)"
+  size 0.05 0.1 0.1
+}
+DEF CAIXA12 WoodenBox {
+  translation 0.15 0.35 0.05
+  name "wooden box(11)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA19 WoodenBox {
+  translation 0.15 -0.35 0.05
+  name "wooden box(18)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA5 WoodenBox {
+  translation -0.35 0 0.05
+  name "wooden box(4)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA6 WoodenBox {
+  translation -0.35 0.35 0.05
+  name "wooden box(5)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA16 WoodenBox {
+  translation -0.35 -0.35 0.05
+  name "wooden box(15)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA7 WoodenBox {
+  translation -0.25 0.165 0.05
+  name "wooden box(6)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA13 WoodenBox {
+  translation -0.25 -0.165 0.05
+  name "wooden box(12)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA8 WoodenBox {
+  translation 0.00894482 0.174087 0.0499607
+  rotation 0 0 1 1.57273
+  name "wooden box(7)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA14 WoodenBox {
+  translation 0 -0.165 0.05
+  name "wooden box(13)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA9 WoodenBox {
+  translation 0.25 0.165 0.05
+  name "wooden box(8)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA15 WoodenBox {
+  translation 0.25 -0.165 0.05
+  name "wooden box(14)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA1 WoodenBox {
+  translation 0.35 0.35 0.05
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
+DEF CAIXA20 WoodenBox {
+  translation 0.35 -0.35 0.05
+  name "wooden box(19)"
+  size 0.1 0.1 0.1
+}
